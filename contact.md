@@ -4,6 +4,8 @@ title: Contact
 permalink: /contact/
 ---
 
-## Contact
+## Contact Me
+
 {% include contact.html %}
 {% include contact-modal.html %}
+
