@@ -5,8 +5,6 @@ permalink: /about/
 ---
 # About Jack He
 
-![My Pic](https://jackhe313.github.io/img/profile.JPG)
-
 Hello! I'm **Jack He**, a dedicated **Computer Science** student at **UCLA**. My journey in tech is fueled by a deep-seated passion for **machine learning**, **software development**, and **algorithm**.
 
 ## Achievements
