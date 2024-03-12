@@ -19,4 +19,4 @@ Hello! I'm **Jack He**, a dedicated **Computer Science** student at **UCLA**. My
 
 I am committed to leveraging my technical expertise to create **impactful technological solutions**. Let's connect and explore how we can innovate together!
 
-#### [My Resume](https://drive.google.com/file/d/1KulJc8KkkJgoylyt6NDdgiFMx0N5wk5U/view?usp=sharing)
+#### [My Resume](https://drive.google.com/drive/folders/1vUlKfDkCs_3Q8zgXxeqsk87ECycywu3e?usp=sharing)
