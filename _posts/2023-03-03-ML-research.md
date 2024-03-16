@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: right
+position: left
 title: 'UCLA Computational ML Lab'
 date: 2024-03-15 12:00:00
 categories: research
