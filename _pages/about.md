@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Computer Science Student at UCLA | ML Researcher
+subtitle: "Harmonizing Minds, Embodying Intelligence."
 
 profile:
   align: right
