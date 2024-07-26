@@ -16,7 +16,7 @@ nav_order: 6
 - **Grading:** Evaluated student assignments, projects, and exams with a focus on providing constructive feedback. Aimed to help students understand their mistakes and learn from them, while also maintaining high academic standards.
 
 <div style="padding-left: 50px; padding-bottom: 20px">
-    <img src="/assets/img/ta_img.JPG" alt="Teaching Experience" width="600" />
+    <img src="{{ site.baseurl }}/assets/img/ta_img.JPG" alt="Teaching Experience" width="600" />
 </div>
 
 
