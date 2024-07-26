@@ -20,7 +20,7 @@ Golfing is more than just a sport for me—it's a way to connect with nature, ch
         {% include figure.liquid loading="eager" path="assets/img/golf5.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/golf7.jpg" title="example image" class="img-fluid rounded z-depth-1 rotate-90" %}
+        {% include figure.liquid loading="eager" path="assets/img/golf7.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -28,7 +28,7 @@ Golfing is more than just a sport for me—it's a way to connect with nature, ch
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/golf2.jpg" title="example image" class="img-fluid rounded z-depth-1 rotate-180" %}
+        {% include figure.liquid loading="eager" path="assets/img/golf2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="row">
@@ -52,11 +52,3 @@ Golfing is more than just a sport for me—it's a way to connect with nature, ch
         {% include video.liquid path="assets/video/golf.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
-
-.rotate-90 {
-    transform: rotate(90deg);
-}
-
-.rotate-180 {
-    transform: rotate(180deg);
-}
