@@ -2,96 +2,78 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Jack He
+    - name : Email
+      value : jackhe313@ucla.edu 
+    - name : Mobile
+      value : 424-832-6703
+    - name: Location
+      value: Los Angeles, CA 90024
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title:
+        Bacholar of Science, Computer Science | Applied Mathematics
+      institution: University of California - Los Angeles
+      year: 2021.9 - 2025.6
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - "<b><big>GPA</big></b>: 3.92"
+        - "<b><big>Honor</big></b>: Dean's Honors List,  8th place in UCLA ACM-ICPC Algorithms Contest (Jan 2022)"
+        - "<b><big>Core Courses</big></b>: Machine Learning, Advanced Deep Learning & Neural Network, Computer Vision, Reinforcement Learning, Natural Language Processing, Data Structure, Algorithms, Linear Algebra, Optimization, Probability and Statistics"
 
-- title: Experience
+- title: Research and Work Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Student Researcher
+      institution: UCLA Prof. Bolei Zhou's Group
+      year: 2024.3 - Pres
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Applied large scale object extraction via GPT-4o, Grounded Dino, and Grounded SAM in real-world.
+        - Reproduced real-world object distribution in Embodied AI simulation platform, MetaUrban.
+        - Integrated MetaUrban into Nvidia's Isaac Lab, successfully transferring and optimizing digital-human assets.
+
+    - title: Student Researcher
+      institution: UCLA Computational Machine Learning Lab
+      year: 2023.3 - Pres
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Conducted analysis of data memorization in generative models (DDPM, GAN), focusing on the layer-wise distribution of memorization scores using Vision Transformers (ViTs) and Convolutional Neural Networks (CNNs) encoders.
+        - Developed a novel training-free fingerprinting method for identifying generative models' architecture, leveraging layer-wise memorization score distributions, achieving SOTA performance on model identification accuracy.
+    
+    - title: Trip Budget Planning Web App
+      institution: Software Product Sprint Participant, Google
+      year: 2022.5 - 2022.8
       description:
+        - Developed a trip budget planning web app using Java, JavaScript, and HTML/CSS, improving data storage efficiency by 30% with Google Cloud integration.
+        - Focused on backend development and coordinated with the front-end team to create functionalities for efficient storage of user, trip, event, and budget data, doubling the system's capacity and boosting performance by 90%.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Text-Guided Image Editing Framework
+      year: 2024.1 - 2024.3
+      description:
+        - Developed an end-to-end image generation and editing framework using PyTorch.
+        - Introduced a training-free, text-guided semantic object segmentation method utilizing DiffEdit (Diffusion-based semantic image editing), BLIP, and other text-to-image models, achieving state-of-the-art capabilities.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: EEG Signal Classification Models Analysis
+      year: 2024.2 - 2024.3
+      description: 
+        - Explored various architectures for EEG (Electroencephalography) signal analysis, including CNN, RNN, Transformers, and hybrid models to resolve the complex patterns of brain neural activities.
+        - Evaluated the impact of various hyperparameters and augmentation, improving classification accuracy by 15%.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Fairness and Factuality of LLM
+      year: 2024.1 - 2024.3
+      description: 
+        - Embarked on evaluating and enhancing the performance of Large Language Models in detecting fairness and factuality in textual claims, centered on Phi-2, Mistral-7B, and utilized GPT-3.5-Turbo for evidence generation.
 
-- title: Other Interests
-  type: list
+- title: Technical Skills
+  type: map
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - name: Programming Languages
+      value: Python, C/C++, Java, JavaScript, SQL, HTML/CSS, MATLAB, R. 
+    - name : Frameworks & Libraries
+      value : PyTorch, TensorFlow, Keras, Scikit-learn, Pandas, NumPy, Node.js, React. 
+    - name : Tools
+      value : Latex, Git, Shell, AWS, Docker, Google Cloud Platform, Azure.
