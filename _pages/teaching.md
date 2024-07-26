@@ -15,10 +15,11 @@ nav_order: 6
 - **Presenting:** Delivered lectures and presentations on specific topics within generative AI, such as the latest research developments, practical applications, and hands-on coding tutorials. Aimed to make advanced topics accessible and engaging.
 - **Grading:** Evaluated student assignments, projects, and exams with a focus on providing constructive feedback. Aimed to help students understand their mistakes and learn from them, while also maintaining high academic standards.
 
-<div style="padding-left: 50px; padding-bottom: 20px">
-    <img src="{{ site.baseurl }}/assets/img/ta_img.JPG" alt="Teaching Experience" width="600" />
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/ta_img.jpg" title="Teaching Experience" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-
 
 ### Tau Beta Pi
 As a member of [Tau Beta Pi](https://tbp.seas.ucla.edu/), I have also provided tutoring in various STEM subjects and hosting review session before midterms and finals, helping students improve their understanding and academic performance.
