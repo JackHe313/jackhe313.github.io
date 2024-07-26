@@ -19,6 +19,8 @@ social: true # includes social icons at the bottom of the page
 
 <h2 style="margin-top: 50px;">About me</h2>
 
-Hi, I’m Jack He, a `junior-year` undergraduate student majoring in `Computer Science` and `Applied Mathematics` at `UCLA`. 
+Hi, This is Jack He, a `junior-year` undergraduate student majoring in `Computer Science` and `Applied Mathematics` at `UCLA`. 
 
 I am currently conducting research in Prof. [Bolei Zhou](https://boleizhou.github.io/)'s lab and Prof. [Cho-Jui Hsieh](https://web.cs.ucla.edu/~chohsieh/)'s lab, with my interests spanning across Embodied AI, Computer Vision, Generative Models, and General Machine Learning.
+
+My Chinese name `何喆` is pronounced as [`Hé Zhé`](https://translate.google.com/?sl=auto&tl=zh-CN&text=%E4%BD%95%E5%96%86&op=translate) in Pinyin, a more natural-sounding English pronunciation guide would be "Huh Zhuh."
