@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-05-27 07:59:00-0400
+date: 2024-07-31 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Our paper, _MetaUrban: A Simulation Platform for Embodied AI in Urban Spaces_, has been successfully submitted to `NeurIPS 2024`! 🎉🚀 We're thrilled to share this milestone and eagerly await the feedback from the community. 
+After 1.5 years of dedicated research, our paper _Embedding Space Selection for Detecting Memorization and Fingerprinting in Generative Models_ has been submitted to `TMLR 2024`. 🚀 You can also check out our findings on [arXiv](https://arxiv.org/abs/2407.21159). 
