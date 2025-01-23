@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 
 <h2 style="margin-top: 50px;">About me</h2>
 
-Hi, This is Jack He, a `junior-year` undergraduate student majoring in `Computer Science` and `Applied Mathematics` at `UCLA`. 
+Hi, This is Jack He, a `senior-year` undergraduate student majoring in `Computer Science` and `Applied Mathematics` at `UCLA`. 
 
 I am currently conducting research in Prof. [Bolei Zhou](https://boleizhou.github.io/)'s lab and Prof. [Cho-Jui Hsieh](https://web.cs.ucla.edu/~chohsieh/)'s lab, with my interests spanning across Embodied AI, Computer Vision, Generative Models, and General Machine Learning.
 
