@@ -2,77 +2,82 @@
   type: map
   contents:
     - name: Full Name
-      value: "Zhe He (Jack)"
-    - name: Email
-      value: "jackhe313@ucla.edu"
-    - name: Mobile
-      value: "424-832-6703"
+      value: Jack He
+    - name : Email
+      value : jackhe313@ucla.edu 
+    - name : Mobile
+      value : 424-832-6703
     - name: Location
-      value: "Los Angeles, CA 90024"
+      value: Los Angeles, CA 90024
 
 - title: Education
   type: time_table
   contents:
     - title:
-        "Bachelor of Science, Computer Science | Applied Mathematics"
-      institution: "University of California, Los Angeles (UCLA)"
-      year: "2021.9 - 2025.6 (Expected)"
+        Bacholar of Science, Computer Science | Applied Mathematics
+      institution: University of California - Los Angeles
+      year: 2021.9 - 2025.6
       description:
         - "<b><big>GPA</big></b>: 3.92/4.0"
-        - "<b><big>Honors</big></b>: Dean's Honors List (2021-2025), 8th place in UCLA ACM-ICPC Algorithms Contest (2022)"
+        - "<b><big>Honor</big></b>: Dean's Honors List (2021-2025),  8th place in UCLA ACM-ICPC Algorithms Contest (2022)"
         - "<b><big>Core Courses</big></b>: Machine Learning, Advanced Deep Learning & Neural Network, Computer Vision, Reinforcement Learning, Natural Language Processing, Data Structure, Algorithms, Linear Algebra, Optimization, Probability and Statistics"
 
 - title: Research Experience
   type: time_table
   contents:
-    - title: Research on Embodied AI in Urban Spaces
+    - title: "Research on Embodied AI in Urban Spaces"
       institution: "Research Assistant, Advisor: Prof. Bolei Zhou, Bolei Zhou Lab, UCLA"
-      year: "2024.3 - Present"
+      year: "2024.3 - Pres"
       description:
         - "Contributed to asset integration for URBAN-X and MetaUrban, developing and curating high-fidelity 3D digital assets."
         - "Led large-scale object extraction using GPT-4o, Grounded DINO, and Grounded SAM, ensuring realistic distribution for simulation platforms."
-        - "Integrated MetaUrban into Nvidia’s Isaac Lab, successfully transferring and optimizing digital assets."
+        - "Integrated MetaUrban into Nvidia's Isaac Lab, successfully transferring and optimizing digital assets."
 
-    - title: Research on Generative Model Memorization and Fingerprinting
+    - title: "Research on Generative Model Memorization and Fingerprinting"
       institution: "Research Assistant, Advisor: Prof. Cho-Jui Hsieh, Computational Machine Learning Lab, UCLA"
       year: "2023.3 - 2024.9"
       description:
-        - "Conducted analysis of data memorization in generative models (DDPM, GAN), focusing on layer-wise distribution of memorization scores using ViTs and CNNs."
-        - "Developed a novel training-free fingerprinting method for identifying generative-model architecture, leveraging layer-wise memorization score distributions and achieving SOTA performance on model identification accuracy."
+        - Conducted analysis of data memorization in generative models (DDPM, GAN), focusing on the layer-wise distribution of memorization scores using Vision Transformers (ViTs) and Convolutional Neural Networks (CNNs) encoders.
+        - Developed a novel training-free fingerprinting method for identifying generative models' architecture, leveraging layer-wise memorization score distributions, achieving SOTA performance on model identification accuracy.
 
 - title: Publications
-  type: list
+  type: time_table
   contents:
-    - "Wayne Wu, Honglin He, Chaoyuan Zhang, Jack He, Seth Z. Zhao, Ran Gong, Quanyi Li, Bolei Zhou. (2024). Towards Autonomous Micromobility through Scalable Urban Simulation. CVPR 2025."
-    - "Wayne Wu, Honglin He, Jack He, Yiran Wang, Chenda Duan, Zhizheng Liu, Quanyi Li, Bolei Zhou. (2024). MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility. ICLR 2025 (spotlight)."
-    - "Jack He, Jianxing Zhao, Andrew Bai, Cho-Jui Hsieh. (2024). Layer Choice for Memorization Detection and Fingerprinting for Generative Models. Arxiv."
+    - title: "Wayne Wu, Honglin He, Chaoyuan Zhang, Jack He, Seth Z. Zhao, Ran Gong, Quanyi Li, Bolei Zhou. (2024). Towards Autonomous Micromobility through Scalable Urban Simulation. CVPR 2025."
+    - title: "Wayne Wu, Honglin He, Jack He, Yiran Wang, Chenda Duan, Zhizheng Liu, Quanyi Li, Bolei Zhou. (2024). MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility. ICLR 2025 (spotlight)."
+    - title: "Jack He, Jianxing Zhao, Andrew Bai, Cho-Jui Hsieh. (2024). Layer Choice for Memorization Detection and Fingerprinting for Generative Models. Arxiv."
 
 - title: Projects
   type: time_table
   contents:
     - title: Text-Guided Image Editing Framework
-      year: "2024.1 - 2024.3"
+      year: 2024.1 - 2024.3
       description:
-        - "Developed an end-to-end image generation and editing framework using PyTorch."
-        - "Introduced a training-free, text-guided semantic object segmentation method (DiffEdit, BLIP, etc.), achieving state-of-the-art capabilities."
+        - Developed an end-to-end image generation and editing framework using PyTorch.
+        - Introduced a training-free, text-guided semantic object segmentation method utilizing DiffEdit (Diffusion-based semantic image editing), BLIP, and other text-to-image models, achieving state-of-the-art capabilities.
 
     - title: EEG Signal Classification Models Analysis
-      year: "2024.2 - 2024.3"
-      description:
-        - "Explored various architectures for EEG (Electroencephalography) signal analysis, including CNN, RNN, and Transformers."
-        - "Evaluated the impact of various hyperparameters and augmentations, improving classification accuracy by 15%."
+      year: 2024.2 - 2024.3
+      description: 
+        - Explored various architectures for EEG (Electroencephalography) signal analysis, including CNN, RNN, Transformers, and hybrid models to resolve the complex patterns of brain neural activities.
+        - Evaluated the impact of various hyperparameters and augmentation, improving classification accuracy by 15%.
 
-    - title: Trip Budget Planning Web App
+    - title: Fairness and Factuality of LLM
+      year: 2024.1 - 2024.3
+      description: 
+        - Embarked on evaluating and enhancing the performance of Large Language Models in detecting fairness and factuality in textual claims, centered on Phi-2, Mistral-7B, and utilized GPT-3.5-Turbo for evidence generation.
+    
+    - title: "Trip Budget Planning Web App"
       institution: "Software Product Sprint Participant, Google"
       year: "2022.5 - 2022.8"
       description:
         - "Developed a trip budget planning web app using Java, JavaScript, and HTML/CSS, improving data storage efficiency by 30% with Google Cloud integration."
         - "Focused on backend development and coordinated with the frontend team to create functionalities for efficient storage of user, trip, event, and budget data, doubling capacity and boosting performance by 90%."
 
-- title: Teaching Activities
-  type: time_table
+- title: "Teaching Activities"
+  type: "time_table"
   contents:
-    - title: Summer Institute: Introduction to Generative AI, UCLA
+    - title: "Summer Institute: Introduction to Generative AI, UCLA"
       institution: "Teaching Assistant"
       year: "2024.7 - 2024.8"
       description:
@@ -83,8 +88,8 @@
   type: map
   contents:
     - name: Programming Languages
-      value: "Python, C/C++, Java, JavaScript, SQL, HTML/CSS, MATLAB, R"
-    - name: Frameworks & Libraries
-      value: "PyTorch, TensorFlow, Keras, Scikit-learn, Pandas, NumPy, Node.js, React"
-    - name: Tools
-      value: "LATEX, Git, Shell, Docker, AWS, Google Cloud Platform, Azure"
+      value: Python, C/C++, Java, JavaScript, SQL, HTML/CSS, MATLAB, R. 
+    - name : Frameworks & Libraries
+      value : PyTorch, TensorFlow, Keras, Scikit-learn, Pandas, NumPy, Node.js, React. 
+    - name : Tools
+      value : Latex, Git, Shell, AWS, Docker, Google Cloud Platform, Azure.
