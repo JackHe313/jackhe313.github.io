@@ -1,0 +1,15 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Navbar from "../components/Navbar.astro";
+import Publications from "../components/Publications.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<BaseLayout title="Publications — Jack He" description="Research in embodied AI, urban simulation, and generative-model fingerprinting.">
+  <Navbar />
+  <main id="main" class="pt-16">
+    <h1 class="sr-only">Publications</h1>
+    <Publications />
+  </main>
+  <Footer />
+</BaseLayout>

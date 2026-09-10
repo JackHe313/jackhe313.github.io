@@ -1,0 +1,12 @@
+label: 07 // CONTACT
+heading: Let’s talk AI & systems.
+description: >-
+  Interested in efficient inference, embodied AI, or research collaboration? The best way to reach me is by
+  email.
+emailIcon: ozlkyfxg
+footer:
+  copyright: >-
+    2026 Jack He. Built with <a href="https://astro.build">Astro</a> &amp; <a
+    href="https://github.com/theserverlessdev/astro-monograph">Monograph</a>.
+  iconsAttribution: Lordicon
+  iconsUrl: https://lordicon.com/

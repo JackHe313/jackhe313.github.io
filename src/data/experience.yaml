@@ -1,0 +1,42 @@
+label: 02 // EXPERIENCE
+heading: Where I’ve made an impact.
+jobs:
+  - company: Quadric
+    role: AI Kernel Engineer Intern
+    dateRange: Jun 2026 – Present
+    description: >-
+      Implemented Qwen3.6 linear-attention kernels from scratch for prefill and decode on the Chimera GPNPU,
+      supporting production inference alongside MoE blocks. Optimized linear-attention prefill/decode and
+      hardware-level routing, achieving a 3.5× decode speedup. Optimized matmul and GEMM kernels for the
+      GPNPU, achieving a 7.6× matmul efficiency improvement. Improved FX64 square-root and division
+      implementations, resolving precision-scaling issues to improve numerical accuracy in edge cases.
+    tech:
+      - Chimera GPNPU
+      - Linear attention
+      - GEMM
+      - FX64
+  - company: UCLA · Bolei Zhou Lab
+    role: Research Assistant, Embodied AI
+    dateRange: Mar 2024 – Mar 2026
+    description: >-
+      Developed a vision-language-action (VLA) pipeline for humanoid manipulation, combining VLM-based
+      instruction following and imitation learning with demonstrations collected through VR teleoperation.
+      Automated the URBAN-SIM asset pipeline with GPT-4o, Grounded DINO, and SAM, supporting 10,000+
+      interactive 3D assets for procedural obstacle placement. Led sim-to-real deployment on COCO robots,
+      evaluating navigation policies across 50+ unseen urban scenarios.
+    tech:
+      - VLA
+      - Imitation learning
+      - VR teleoperation
+      - Sim-to-real
+  - company: UCLA · Computational ML Lab
+    role: Research Assistant, Generative Models
+    dateRange: Mar 2023 – Sep 2024
+    description: >-
+      Developed a training-free fingerprinting method using layer-wise memorization profiles; studied
+      embedding-space selection for diffusion and GAN models with ViT and CNN encoders.
+    tech:
+      - Diffusion models
+      - GANs
+      - ViT
+      - CNN

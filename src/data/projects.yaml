@@ -1,0 +1,152 @@
+label: 03 // PROJECTS
+heading: Selected builds & experiments.
+statuses:
+  - label: All
+  - label: Machine Learning
+    color: "#2E5090"
+  - label: Systems
+    color: "#2D8A56"
+  - label: Software
+    color: "#8461b2"
+items:
+  - slug: on_device_vlm
+    title: On-Device VLM Inference Optimization
+    subtitle: 2.05× faster inference · Oct–Dec 2025
+    description: >-
+      Optimized Qwen3-VL-2B inference on Snapdragon 8 Elite, achieving a 2.05× speedup over the project
+      baseline. Configured llama.cpp with importance-matrix-based Q4_0 quantization, memory locking (mlock),
+      and CPU affinity for on-device inference. Fine-tuned with LoRA for visual question answering, evaluating
+      both task quality and inference performance.
+    bullets:
+      - >-
+        Optimized Qwen3-VL-2B inference on Snapdragon 8 Elite, achieving a 2.05× speedup over the project
+        baseline.
+      - >-
+        Configured llama.cpp with importance-matrix-based Q4_0 quantization, memory locking (mlock), and CPU
+        affinity for on-device inference.
+      - >-
+        Fine-tuned with LoRA for visual question answering, evaluating both task quality and inference
+        performance.
+    status: Machine Learning
+    featured: true
+    icon: oqhqyeud
+    links:
+      - url: /projects/on_device_vlm/
+        label: Project details
+        icon: jjxzcivr
+    tech:
+      - llama.cpp
+      - Q4_0
+      - LoRA
+      - Snapdragon 8 Elite
+  - slug: shorten_url
+    title: High-Performance C++ Web Server
+    subtitle: 1,000+ concurrent users · Mar–Jun 2025
+    description: >-
+      Built an asynchronous C++ web server using Boost.Asio, Redis caching, and PostgreSQL connection pooling
+      to support 1,000+ concurrent users. Led a four-person team using TDD; automated CI/CD with Docker and
+      Google Cloud Build.
+    bullets:
+      - >-
+        Built an asynchronous C++ web server using Boost.Asio, Redis caching, and PostgreSQL connection
+        pooling to support 1,000+ concurrent users.
+      - Led a four-person team using TDD; automated CI/CD with Docker and Google Cloud Build.
+    status: Systems
+    featured: true
+    icon: lvrxlmju
+    links:
+      - url: https://github.com/JackHe313/creeper-url-shortening-web-server
+        label: GitHub
+        icon: jjxzcivr
+    tech:
+      - C++
+      - Boost.Asio
+      - Redis
+      - PostgreSQL
+      - Docker
+  - slug: EEG_project
+    title: EEG (Electroencephalography) Signal Classification
+    subtitle: Machine Learning
+    description: >-
+      Explored a variety of model architectures for EEG signal analysis, including CNN, RNN attention-based
+      models, Transformers, and hybrid models.
+    status: Machine Learning
+    featured: false
+    icon: gsjfryhc
+    image: /assets/img/9Subject.png
+    links:
+      - url: https://github.com/allenwang2333/EEG-classification
+        label: View project ↗
+        icon: tvzjrcxe
+    tech: []
+  - slug: Google_TripBud_project
+    title: Google TripBud
+    subtitle: Software Development
+    description: Software Product Sprint project, a trip budget planning web app
+    status: Software
+    featured: false
+    icon: gsjfryhc
+    image: /assets/img/TripBud.png
+    links:
+      - url: https://github.com/JackHe313/summer-2022-team36
+        label: View project ↗
+        icon: tvzjrcxe
+    tech: []
+  - slug: LLM_project
+    title: Fairness and Factuality of LLM
+    subtitle: Machine Learning
+    description: >-
+      Embarked on evaluating and enhancing the performance of Large Language Models (LLMs) in detecting
+      fairness and factuality in textual claims.
+    status: Machine Learning
+    featured: false
+    icon: gsjfryhc
+    image: /assets/img/LLM.png
+    links:
+      - url: https://drive.google.com/file/d/1eSt0McIR7KrRg3GA8MTn2edn7VcpXm1o/view
+        label: View project ↗
+        icon: tvzjrcxe
+    tech: []
+  - slug: bruinObruin_project
+    title: Bruin O Bruin
+    subtitle: Software Development
+    description: Lead a team of 5 to create Bruin ’O’ Bruin, a card-elimination game web app
+    status: Software
+    featured: false
+    icon: gsjfryhc
+    image: /assets/img/bruinObruin.png
+    links:
+      - url: /projects/bruinObruin_project/
+        label: View project ↗
+        icon: tvzjrcxe
+    tech: []
+  - slug: diffedit_project
+    title: Text Guided Image Editing (DiffEdit)
+    subtitle: Machine Learning
+    description: >-
+      Leveraged DiffEdit, an innovative text-conditioned diffusion model for semantic image editing,
+      integrating it with BLIP and other models into an interactive framework for a seamless end-to-end image
+      generation and editing pipeline. Additionally, pioneered a novel technique for text-guided mask
+      generation in DiffEdit, enabling precise object segmentation through textual queries.
+    status: Machine Learning
+    featured: false
+    icon: gsjfryhc
+    image: /assets/img/diffedit.png
+    links:
+      - url: https://ucladeepvision.github.io/CS188-Projects-2024Winter/2024/03/07/team28-Image-editting.html
+        label: View project ↗
+        icon: tvzjrcxe
+    tech: []
+  - slug: superPeachSister_project
+    title: Super Peach Sister
+    subtitle: Software Development
+    description: A 2D game where players control Princess Peach to save Mario
+    status: Software
+    featured: false
+    icon: gsjfryhc
+    image: /assets/img/superPeachSister.png
+    links:
+      - url: /projects/superPeachSister_project/
+        label: View project ↗
+        icon: tvzjrcxe
+    tech: []

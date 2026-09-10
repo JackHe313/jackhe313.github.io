@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of my cool projects.
+description: Projects in efficient AI inference, machine learning, and software systems.
 nav: true
 nav_order: 3
 display_categories: [Machine Learning, Software Development]

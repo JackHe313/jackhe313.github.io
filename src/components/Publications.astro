@@ -1,0 +1,44 @@
+---
+import { load } from "../lib/data";
+const { items } = load("publications.yaml");
+---
+
+<section id="research" class="py-20 md:py-28 px-6 bg-surface scroll-mt-16">
+  <div class="max-w-[1100px] mx-auto">
+    <p class="font-mono text-[14px] text-accent tracking-[0.12em] mb-3">04 // RESEARCH</p>
+    <h2 class="text-[32px] md:text-[44px] font-bold mb-10">Ideas, experiments & publications.</h2>
+    <div class="space-y-6">
+      {items.map((p: any) => (
+        <article class="grid md:grid-cols-[240px_1fr] gap-6 md:gap-9 p-5 md:p-7 rounded-[8px] bg-surface-raised border border-border card-glow">
+          <img
+            src={p.image}
+            alt={`Research overview: ${p.title}`}
+            loading="lazy"
+            width="480"
+            height="300"
+            class="w-full aspect-[8/5] object-contain rounded bg-white"
+          />
+          <div>
+            <p class="text-[12px] font-mono text-accent uppercase tracking-wider mb-3">{p.venue}</p>
+            <h3 class="font-bold text-[21px] mb-3">{p.title}</h3>
+            <p class="text-[14px] text-ink-secondary mb-4">
+              {p.authors.split("Jack He").map((part: string, i: number) => (
+                <>
+                  {i > 0 && <strong class="text-ink">Jack He</strong>}
+                  {part}
+                </>
+              ))}
+            </p>
+            <div class="flex flex-wrap gap-5">
+              {p.links.map((l: any) => (
+                <a href={l.url} target="_blank" rel="noopener noreferrer" class="text-[14px] font-medium">
+                  {l.label} ↗
+                </a>
+              ))}
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

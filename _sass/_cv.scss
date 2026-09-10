@@ -10,6 +10,12 @@ table.table-cv {
   background-color: transparent !important;
 }
 
+.cv table.table-cv .badge {
+  width: 75px;
+  white-space: normal;
+  line-height: 1.4;
+}
+
 a.btncv {
   color: var(--global-text-color) !important;
   border: 1px solid var(--global-text-color) !important;

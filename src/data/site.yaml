@@ -1,0 +1,31 @@
+title: Jack He — AI Systems & Embodied Intelligence
+description: >-
+  Jack He is a UCLA Computer Science graduate student and AI Kernel Engineer Intern at Quadric. Efficient
+  inference, on-device models, and embodied AI.
+name: jack he
+fullName: Jack He
+email: Jackhe313@g.ucla.edu
+lang: en
+themeColor: "#2E5090"
+social:
+  - label: GitHub
+    url: https://github.com/JackHe313
+    icon: jjxzcivr
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/Jackhe313
+    icon: euybrknk
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=xM_mO4IAAAAJ
+nav:
+  - label: About
+    href: /#about
+  - label: Experience
+    href: /#experience
+  - label: Projects
+    href: /#projects
+  - label: Research
+    href: /#research
+  - label: Resume
+    href: /cv/
+  - label: Contact
+    href: /#contact

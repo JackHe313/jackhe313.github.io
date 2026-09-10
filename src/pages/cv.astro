@@ -1,0 +1,47 @@
+---
+import DetailLayout from "../layouts/DetailLayout.astro";
+import { load } from "../lib/data";
+const sections = load("resume.yaml");
+---
+
+<DetailLayout title="Resume" description="AI engineering, efficient inference, and embodied intelligence.">
+  <a href="/assets/pdf/Jack_He_Resume.pdf" class="inline-flex px-5 py-3 bg-accent text-ink-on-dark rounded-md font-medium mb-12" download>
+    Download resume PDF ↓
+  </a>
+  <div class="space-y-12">
+    {sections.map((section: any) => (
+      <section>
+        <h2 class="text-[26px] font-bold border-b border-border pb-4 mb-6">{section.title}</h2>
+        {section.type === "map" ? (
+          <dl class="space-y-3">
+            {section.contents.map((c: any) => (
+              <div class="grid sm:grid-cols-[180px_1fr] gap-1 sm:gap-5">
+                <dt class="font-medium">{c.name}</dt>
+                <dd class="text-ink-secondary" set:html={c.value} />
+              </div>
+            ))}
+          </dl>
+        ) : (
+          <div class="space-y-8">
+            {section.contents.map((c: any) => (
+              <article>
+                <div class="flex flex-col sm:flex-row justify-between gap-3">
+                  <h3 class="text-[20px] font-bold">{c.title}</h3>
+                  <span class="text-[13px] font-mono text-accent shrink-0">{c.year}</span>
+                </div>
+                {c.institution && <p class="text-ink-secondary mt-2">{c.institution}</p>}
+                {c.description && (
+                  <ul class="list-disc pl-5 mt-3 space-y-2 text-ink-secondary">
+                    {c.description.map((d: string) => (
+                      <li>{d}</li>
+                    ))}
+                  </ul>
+                )}
+              </article>
+            ))}
+          </div>
+        )}
+      </section>
+    ))}
+  </div>
+</DetailLayout>

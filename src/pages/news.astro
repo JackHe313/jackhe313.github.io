@@ -1,0 +1,16 @@
+---
+import DetailLayout from "../layouts/DetailLayout.astro";
+const posts = Object.values(import.meta.glob("./news/*.md", { eager: true })) as any[];
+posts.sort((a, b) => b.frontmatter.title.localeCompare(a.frontmatter.title));
+---
+
+<DetailLayout title="News" description="Updates from my research and engineering work.">
+  <div class="space-y-8">
+    {posts.map((p) => (
+      <article class="border-b border-border pb-8">
+        <p class="font-mono text-[13px] text-accent mb-4">{p.frontmatter.title}</p>
+        <p set:html={p.compiledContent()} />
+      </article>
+    ))}
+  </div>
+</DetailLayout>

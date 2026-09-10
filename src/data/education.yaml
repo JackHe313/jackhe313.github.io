@@ -1,0 +1,18 @@
+label: 06 // EDUCATION
+heading: A foundation at UCLA.
+institution: University of California, Los Angeles
+degrees:
+  - degree: M.S. in Computer Science
+    institution: University of California, Los Angeles (UCLA)
+    dateRange: Expected Dec 2026
+    highlights: []
+  - degree: B.S. in Computer Science; Double Major in Applied Mathematics
+    institution: University of California, Los Angeles (UCLA)
+    dateRange: Jun 2025
+    highlights:
+      - "GPA: 3.92/4.0 (undergraduate)"
+      - Dean's Honors List, 2021–2025
+      - >-
+        Relevant coursework: Efficient Deep Learning, Advanced Deep Learning, Machine Learning, Computer
+        Vision, Natural Language Processing, Reinforcement Learning, Algorithms, Linear Algebra, Probability &
+        Statistics

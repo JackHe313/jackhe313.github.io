@@ -1,0 +1,37 @@
+---
+import DetailLayout from "../../layouts/DetailLayout.astro";
+import { load } from "../../lib/data";
+export function getStaticPaths() {
+  return load("projects.yaml").items.map((project: any) => ({ params: { slug: project.slug }, props: { project } }));
+}
+const { project } = Astro.props;
+---
+
+<DetailLayout title={project.title} description={project.subtitle}>
+  {project.image && <img src={project.image} alt={project.title} class="w-full max-h-[480px] object-contain rounded-lg mb-10" />}
+  <p class="text-[18px] text-ink-secondary leading-relaxed">{project.description}</p>
+  {project.tech.length > 0 && (
+    <div class="flex flex-wrap gap-2 mt-8">
+      {project.tech.map((t: string) => (
+        <span class="px-3 py-1 bg-accent-wash text-accent font-mono text-[13px] rounded">{t}</span>
+      ))}
+    </div>
+  )}
+  <div class="flex flex-wrap gap-5 mt-8">
+    {project.links
+      .filter((l: any) => !l.url.startsWith("/projects/"))
+      .map((l: any) => (
+        <a href={l.url} target="_blank" rel="noopener noreferrer">
+          {l.label} ↗
+        </a>
+      ))}
+  </div>
+  {project.slug === "superPeachSister_project" && <video class="mt-10 rounded-lg w-full" controls preload="metadata" src="/assets/video/peach.mp4" />}
+  {project.slug === "bruinObruin_project" && (
+    <div class="grid sm:grid-cols-2 gap-5 mt-10">
+      {["bruin1.jpg", "bruin4.jpg", "bruin2.png", "bruin3.png"].map((i) => (
+        <img src={`/assets/img/${i}`} alt="Bruin O Bruin gameplay" loading="lazy" class="rounded-lg w-full" />
+      ))}
+    </div>
+  )}
+</DetailLayout>

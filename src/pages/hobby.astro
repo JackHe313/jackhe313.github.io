@@ -1,0 +1,17 @@
+---
+import DetailLayout from "../layouts/DetailLayout.astro";
+---
+
+<DetailLayout title="Outside the lab" description="A little time away from the keyboard.">
+  <div class="grid sm:grid-cols-2 gap-7">
+    {[
+      { title: "Snowboarding", image: "snowboard1.jpg", url: "/hobby/snowboarding/" },
+      { title: "Golf", image: "golf1.jpeg", url: "/hobby/golfing/" },
+    ].map((h) => (
+      <a href={h.url} class="card-glow bg-surface-raised border border-border rounded-lg overflow-hidden">
+        <img src={`/assets/img/${h.image}`} alt={h.title} class="w-full aspect-[4/3] object-cover" />
+        <h2 class="p-6 text-[24px] font-bold">{h.title} ↗</h2>
+      </a>
+    ))}
+  </div>
+</DetailLayout>

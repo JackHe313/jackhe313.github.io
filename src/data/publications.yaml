@@ -1,0 +1,30 @@
+items:
+  - title: Towards Autonomous Micromobility through Scalable Urban Simulation
+    authors: Wayne Wu, Honglin He, Chaoyuan Zhang, Jack He, Seth Z. Zhao, Ran Gong, Quanyi Li, Bolei Zhou
+    venue: CVPR 2025 · Spotlight
+    image: /assets/img/cover_urbansim.png
+    links:
+      - label: Paper
+        url: https://arxiv.org/pdf/2505.00690
+      - label: Code
+        url: https://github.com/metadriverse/urban-sim
+      - label: Website
+        url: https://metadriverse.github.io/urban-sim
+  - title: "MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility"
+    authors: Wayne Wu, Honglin He, Jack He, Yiran Wang, Chenda Duan, Zhizheng Liu, Quanyi Li, Bolei Zhou
+    venue: ICLR 2025 · Spotlight
+    image: /assets/img/metaurban_short.gif
+    links:
+      - label: Paper
+        url: https://openreview.net/pdf?id=kFsWpSxkFz
+      - label: Code
+        url: https://github.com/metadriverse/metaurban
+      - label: Website
+        url: https://metadriverse.github.io/metaurban
+  - title: Layer Choice for Memorization Detection and Fingerprinting for Generative Models
+    authors: Jack He, Jianxing Zhao, Andrew Bai, Cho-Jui Hsieh
+    venue: arXiv · 2024
+    image: /assets/img/model_scores_plot.png
+    links:
+      - label: Paper
+        url: https://arxiv.org/abs/2407.21159

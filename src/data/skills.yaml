@@ -1,0 +1,40 @@
+label: 05 // TOOLKIT
+heading: Tools behind the work.
+categories:
+  - name: Languages
+    icon: lzgmgrnn
+    items:
+      - C++
+      - C
+      - Python
+      - SQL
+      - Shell
+      - Java
+      - JavaScript
+  - name: ML & Inference
+    icon: gvtjlyjf
+    items:
+      - PyTorch
+      - TensorFlow
+      - NumPy
+      - scikit-learn
+      - llama.cpp
+      - low-bit quantization
+      - LoRA fine-tuning
+  - name: Kernel Optimization
+    icon: kikjlzqr
+    items:
+      - Linear attention
+      - prefill/decode
+      - matmul/GEMM
+      - FX64 numerical functions
+  - name: Systems & Tools
+    icon: xqdfobxg
+    items:
+      - Boost.Asio
+      - Redis
+      - PostgreSQL
+      - Git
+      - Docker
+      - Google Cloud Platform
+      - Google Cloud Build

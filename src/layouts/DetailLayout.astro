@@ -1,0 +1,19 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
+const { title, description = "" } = Astro.props.frontmatter || Astro.props;
+---
+
+<BaseLayout title={`${title} — Jack He`} description={description}>
+  <Navbar />
+  <main id="main" class="max-w-[1000px] mx-auto px-6 pt-32 pb-24 min-h-screen">
+    <a href="/" class="font-mono text-[13px]">
+      ← Back to home
+    </a>
+    <h1 class="text-[36px] md:text-[56px] font-bold mt-7 mb-5">{title}</h1>
+    {description && <p class="text-[18px] text-ink-secondary mb-10 max-w-[750px]">{description}</p>}
+    <slot />
+  </main>
+  <Footer />
+</BaseLayout>

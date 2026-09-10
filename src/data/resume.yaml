@@ -1,0 +1,113 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Jack He (Zhe He)
+    - name: Email
+      value: Jackhe313@g.ucla.edu
+    - name: Mobile
+      value: (424) 832-6703
+    - name: Website
+      value: <a href="https://jackhe313.github.io">jackhe313.github.io</a>
+- title: Education
+  type: time_table
+  contents:
+    - title: M.S. in Computer Science
+      institution: University of California, Los Angeles (UCLA)
+      year: Expected Dec 2026
+    - title: B.S. in Computer Science; Double Major in Applied Mathematics
+      institution: University of California, Los Angeles (UCLA)
+      year: Jun 2025
+      description:
+        - "GPA: 3.92/4.0 (undergraduate)"
+        - Dean's Honors List, 2021–2025
+        - >-
+          Relevant coursework: Efficient Deep Learning, Advanced Deep Learning, Machine Learning, Computer
+          Vision, Natural Language Processing, Reinforcement Learning, Algorithms, Linear Algebra, Probability
+          & Statistics
+- title: Technical Skills
+  type: map
+  contents:
+    - name: Languages
+      value: C++, C, Python, SQL, Shell, Java, JavaScript
+    - name: ML & Inference
+      value: PyTorch, TensorFlow, NumPy, scikit-learn, llama.cpp, low-bit quantization, LoRA fine-tuning
+    - name: Kernel Optimization
+      value: Linear attention, prefill/decode, matmul/GEMM, FX64 numerical functions
+    - name: Systems & Tools
+      value: Boost.Asio, Redis, PostgreSQL, Git, Docker, Google Cloud Platform, Google Cloud Build
+- title: Experience
+  type: time_table
+  contents:
+    - title: AI Kernel Engineer Intern
+      institution: Quadric
+      year: Jun 2026 – Present
+      description:
+        - >-
+          Implemented Qwen3.6 linear-attention kernels from scratch for prefill and decode on the Chimera
+          GPNPU, supporting production inference alongside MoE blocks.
+        - >-
+          Optimized linear-attention prefill/decode and hardware-level routing, achieving a 3.5× decode
+          speedup.
+        - Optimized matmul and GEMM kernels for the GPNPU, achieving a 7.6× matmul efficiency improvement.
+        - >-
+          Improved FX64 square-root and division implementations, resolving precision-scaling issues to
+          improve numerical accuracy in edge cases.
+    - title: Research Assistant, Embodied AI
+      institution: "UCLA, Bolei Zhou Lab · Advisor: Prof. Bolei Zhou"
+      year: Mar 2024 – Mar 2026
+      description:
+        - >-
+          Developed a vision-language-action (VLA) pipeline for humanoid manipulation, combining VLM-based
+          instruction following and imitation learning with demonstrations collected through VR teleoperation.
+        - >-
+          Automated the URBAN-SIM asset pipeline with GPT-4o, Grounded DINO, and SAM, supporting 10,000+
+          interactive 3D assets for procedural obstacle placement.
+        - >-
+          Led sim-to-real deployment on COCO robots, evaluating navigation policies across 50+ unseen urban
+          scenarios.
+    - title: Research Assistant, Generative Models
+      institution: "UCLA, Computational Machine Learning Lab · Advisor: Prof. Cho-Jui Hsieh"
+      year: Mar 2023 – Sep 2024
+      description:
+        - >-
+          Developed a training-free fingerprinting method using layer-wise memorization profiles; studied
+          embedding-space selection for diffusion and GAN models with ViT and CNN encoders.
+- title: Selected Projects
+  type: time_table
+  contents:
+    - title: On-Device VLM Inference Optimization
+      year: Oct 2025 – Dec 2025
+      description:
+        - >-
+          Optimized Qwen3-VL-2B inference on Snapdragon 8 Elite, achieving a 2.05× speedup over the project
+          baseline.
+        - >-
+          Configured llama.cpp with importance-matrix-based Q4_0 quantization, memory locking (mlock), and CPU
+          affinity for on-device inference.
+        - >-
+          Fine-tuned with LoRA for visual question answering, evaluating both task quality and inference
+          performance.
+    - title: High-Performance C++ Web Server
+      year: Mar 2025 – Jun 2025
+      description:
+        - >-
+          Built an asynchronous C++ web server using Boost.Asio, Redis caching, and PostgreSQL connection
+          pooling to support 1,000+ concurrent users.
+        - Led a four-person team using TDD; automated CI/CD with Docker and Google Cloud Build.
+- title: Selected Publications
+  type: time_table
+  contents:
+    - title: Layer Choice for Memorization Detection and Fingerprinting for Generative Models
+      institution: Jack He, Jianxing Zhao, Andrew Bai, Cho-Jui Hsieh
+      year: arXiv
+    - title: "MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility"
+      institution: Wayne Wu et al. (co-author)
+      year: ICLR 2025
+      description:
+        - Spotlight
+    - title: Towards Autonomous Micromobility through Scalable Urban Simulation
+      institution: Wayne Wu et al. (co-author)
+      year: CVPR 2025
+      description:
+        - Spotlight

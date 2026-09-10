@@ -1,0 +1,22 @@
+label: 01 // ABOUT
+heading: From models to the real world.
+paragraphs:
+  - >-
+    I’m <strong class="text-ink">Jack He (Zhe He)</strong>, a Computer Science master’s student at UCLA. My
+    work connects machine learning with the systems that make it run efficiently.
+  - >-
+    At <strong class="text-ink">Quadric</strong>, I develop and optimize inference kernels for the Chimera
+    GPNPU. Previously, I worked on humanoid manipulation and urban navigation in <a
+    href="https://boleizhou.github.io/">Bolei Zhou’s lab</a>, and generative-model memorization in <a
+    href="https://web.cs.ucla.edu/~chohsieh/">Cho-Jui Hsieh’s lab</a>.
+  - >-
+    My Chinese name is <strong class="text-ink">何喆</strong> (Hé Zhé). Outside of research and engineering, I
+    enjoy <a href="/hobby/">snowboarding and golf</a> and have <a href="/teaching/">taught generative AI at
+    UCLA</a>.
+stats:
+  - value: 3.5×
+    label: Linear-attention decode speedup at Quadric
+  - value: 7.6×
+    label: Matmul efficiency improvement at Quadric
+  - value: 2.05×
+    label: On-device VLM speedup over project baseline

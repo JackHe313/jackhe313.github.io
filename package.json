@@ -1,6 +1,44 @@
 {
+  "name": "jack-he-portfolio",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Jack He — AI systems, efficient inference, and embodied intelligence",
+  "author": "Jack He",
+  "homepage": "https://jackhe313.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JackHe313/jackhe313.github.io.git"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "check:links": "node scripts/check-links.mjs",
+    "format:check": "prettier src scripts astro.config.mjs package.json tsconfig.json README.md --check"
+  },
+  "keywords": [
+    "astro",
+    "astro-theme",
+    "portfolio",
+    "resume",
+    "personal-site",
+    "tailwindcss",
+    "yaml",
+    "single-page",
+    "developer-portfolio"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "astro": "^7.3.2",
+    "js-yaml": "^4.1.1",
+    "tailwindcss": "^4.2.2"
+  },
   "devDependencies": {
+    "@astrojs/sitemap": "^3.7.1",
     "@shopify/prettier-plugin-liquid": "1.4.0",
-    "prettier": "3.1.1"
+    "prettier": "^3.9.6",
+    "prettier-plugin-astro": "^1.0.0"
   }
 }
