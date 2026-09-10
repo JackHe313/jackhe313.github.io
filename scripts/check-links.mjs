@@ -1,6 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 const root = path.resolve("dist");
+if (!fs.existsSync(path.join(root, ".nojekyll"))) {
+  throw new Error("GitHub Pages requires dist/.nojekyll to serve Astro’s _astro assets.");
+}
+
 const files = [];
 function walk(dir) {
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
